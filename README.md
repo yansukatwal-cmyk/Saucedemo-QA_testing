@@ -27,9 +27,12 @@ The manual testing work includes:
 - Bug identification
 - Bug reports
 
-**Files:**
-- `testcase_saucedemo.xlsx`
-- `Bugreport_saucedemo.xlsx`
+**Documentation:**
+
+- [Test Cases (Markdown)](testcase_saucedemo.md)
+- [Test Cases (Excel)](testcase_saucedemo.xlsx)
+- [Bug Reports (Markdown)](Bugreport_saucedemo.md)
+- [Bug Reports (Excel)](Bugreport_saucedemo.xlsx)
 
 ## Cypress Automation
 
@@ -62,15 +65,18 @@ The Cypress test files are located in `cypress/e2e/`.
 ## Project Structure
 
 ```text
-Saucedemo-QA_testing
+Saucedemo-QA_testing/
 │
 ├── Bugreport_saucedemo.xlsx
+├── Bugreport_saucedemo.md
 ├── testcase_saucedemo.xlsx
+├── testcase_saucedemo.md
 ├── cypress.config.js
 ├── package.json
 ├── package-lock.json
-├── cypress
-│   └── e2e
+│
+├── cypress/
+│   └── e2e/
 │       ├── cart.cy.js
 │       ├── checkout.cy.js
 │       ├── logintest.cy.js
